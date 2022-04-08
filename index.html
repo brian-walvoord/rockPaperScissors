@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Rock, Paper, Scissors!</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap" rel="stylesheet">
+  <link href="index.css" type="text/css" rel="stylesheet">
+  <script src="index.js"></script>
+</head>
+
+<body>
+  <h1>Rock, Paper, Scissors!</h1>
+  <h2>Your Choice:</h2>
+  <div class="choices">
+    <div class="choice1" onclick="userChoice('r')">
+      <img src="./images/rock.png">
+      <div class="choiceTitle title1">
+        <h3>Rock</h3>
+      </div>
+    </div>
+
+    <div class="choice2" onclick="userChoice('p')">
+      <img src="./images/paper.png">
+      <div class="choiceTitle title2">
+        <h3>Paper</h3>
+      </div>
+    </div>
+
+    <div class="choice3">
+      <img src="./images/scissors.png" onclick="userChoice('s')">
+      <div class="choiceTitle title3">
+        <h3>Scissors</h3>
+      </div>
+    </div>
+  </div>
+
+  <div class="score">
+    <div class="userScore">
+      <h4>Your Score: <span class="userNumScore">0</span></h4>
+    </div>
+    <div class="compScore">
+      <h4>Computer Score: <span class="compNumScore">0</span></h4>
+    </div>
+  </div>
+
+</body>
+
+
+
+
+</html>

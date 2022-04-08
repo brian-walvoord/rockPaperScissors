@@ -1,0 +1,57 @@
+body {
+  background-color: #4b5668;
+}
+
+img {
+  height: 150px;
+}
+
+h1, h2, h4 {
+  color: whitesmoke;
+  text-align: center;
+}
+
+.choices {
+  display: flex;
+  justify-content: center;
+}
+
+.choice1, .choice2, .choice3 {
+  padding: 30px 50px 0px 50px;
+  margin: 30px;
+  background-color: #d4e6f1d9;
+  box-shadow: 5px 5px;
+  transition-duration: 0.4s;
+  border-radius: 5%;
+}
+
+h1 {
+  font-size: 100px;
+  font-family: 'Grape Nuts', cursive;
+  margin-top: 30px;
+}
+
+h2, h4 {
+  font-size: 30px;
+  font-family: helvetica, sans-serif;
+}
+
+h3 {
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Grape Nuts', cursive;
+}
+
+.choice1:hover, .choice2:hover, .choice3:hover {
+  background-color: #6796c9d9;
+  cursor: pointer;
+}
+
+.score {
+  display: flex;
+  justify-content: center;
+}
+
+.userScore, .compScore {
+  padding: 0px 30px;
+}
