@@ -6,3 +6,5 @@ I have added this test line to practice pulling from github (using HTTP)
 pulling with the other one...
 
 And yet another one, yay!
+
+Now let's try git fetch and see what the hell happens
