@@ -7,3 +7,4 @@ pulling with the other one...
 
 And yet another one, yay!
 
+Now let's try git fetch and see what the hell happens
