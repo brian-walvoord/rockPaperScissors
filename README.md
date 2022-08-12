@@ -16,3 +16,5 @@ Trying to commit this with dummy account to check if npx co-commit is working
 Yet another change...
 
 Let's add another change here
+
+Hopefully this is the last one, but we will see
