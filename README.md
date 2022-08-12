@@ -10,3 +10,5 @@ And yet another one, yay!
 Now let's try git fetch and see what the hell happens
 
 Maybe this is the last change, who knows?
+
+Trying to commit this with dummy account to check if npx co-commit is working
