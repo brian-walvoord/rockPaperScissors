@@ -22,3 +22,5 @@ Hopefully this is the last one, but we will see
 new thing, who dis?
 
 adding some stuff!
+
+Testing npx co-commit with bash shell instead of powershell
